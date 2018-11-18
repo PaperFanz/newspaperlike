@@ -1,0 +1,26 @@
+{
+    "name": "newspaperlike",
+    "displayName": "Newspaperlike",
+    "description": "A light theme that takes inspiration from a relic of the past.",
+    "version": "0.0.1",
+    "preview": true,
+    "repository": {
+        "type": "Git",
+        "url": "https://github.com/PaperFanz/newspaperlike"
+    },
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Newspaperlike",
+                "uiTheme": "vs",
+                "path": "./themes/Newspaperlike-color-theme.json"
+            }
+        ]
+    }
+}
